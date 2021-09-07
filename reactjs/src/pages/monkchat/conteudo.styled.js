@@ -85,6 +85,7 @@ const ContainerConteudo = styled.div`
     .chat::-webkit-scrollbar-track
     {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
         border-radius: 10px;
         background-color: #3E006F;
     }
@@ -100,6 +101,7 @@ const ContainerConteudo = styled.div`
     {
         border-radius: 10px;
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        box-shadow: inset 0 0 6px rgba(0,0,0,.3);
         background-color: #CBCBCB;
     }
 
@@ -109,6 +111,7 @@ const ContainerConteudo = styled.div`
     .chat-message {
         display: flex;
         flex-direction: row;
+        align-items: center;
 
         font-size: .9em;
         margin: .4em .2em;
